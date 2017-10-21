@@ -20,10 +20,10 @@ app.engine('handlebars', exphbs({
 }));
 app.set('view engine', 'handlebars');
 
-//connecting to MongoDB
-// mongoose.connect('mongodb://heroku_jxkjhg1v:6s68tem51mlionrj2sneb7b53c@ds127988.mlab.com:27988/heroku_jxkjhg1v');
+// connecting to MongoDB
+mongoose.connect('mongodb://heroku_b6kmlmlr:q032kc008hf3cv72fe3h2teq9h@ds125262.mlab.com:25262/heroku_b6kmlmlr');
 
-mongoose.connect('mongodb://localhost/scraped_news');
+// mongoose.connect('mongodb://localhost/scraped_news');
 
 
 var db = mongoose.connection;
